@@ -1,0 +1,49 @@
+/**
+ * Java 1. Homework 1
+ * @author Oleg
+ * @version 17.01.21
+ */
+ class lesson1
+    public static void main(String[] args) {
+        printThreeWords();
+        checkSumSign();
+        printColor();
+        compareNumbers();
+    }
+    static void printThreeWords() {
+        System.out.println("Orange");
+        System.out.println("Banana");
+        System.out.println("Apple");
+    }
+    static void checkSumSign() {
+        int a = 2, b = 3;
+        if (a < b) {
+        System.out.println("a < b");
+        }
+        c = a - b;
+        if (c >= 0) {
+        System.out.println("sum +");
+        }
+        if (c < 0) {
+        System.out.println("sum -");
+        }
+    }
+    static void printColor() {
+        int value = 3;
+        if (value <= 0) {
+        System.out.println("red");
+        } else if (value => 100) {
+        System.out.println("yellow");
+        } else (value > 101) {
+        System.out.println("green");
+        }
+    }
+    static void compareNumbers () {
+        int a = 8, b = 5;
+        if (a >= b) {
+        System.out.println("a >= b");
+        }
+        if (a < b) {
+        System.out.println("a < b");
+        }
+    }
